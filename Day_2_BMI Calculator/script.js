@@ -1,10 +1,10 @@
 document.getElementById("bmiForm").addEventListener("submit", function(e) {
     e.preventDefault();
     const gender = document.getElementById("gender").value;
-    const age = parseInt(document.getElementById("age")).value;
-    const heightFeets = parseInt(document.getElementById("height-feet")).value;
-    const heightInches = parseInt(document.getElementById("height-inches")).value;
-    const weight = parseFloat(document.getElementById("weight")).value;
+    const age = parseInt(document.getElementById("age").value);
+    const heightFeets = parseInt(document.getElementById("height-feet").value);
+    const heightInches = parseInt(document.getElementById("height-inches").value);
+    const weight = parseFloat(document.getElementById("weight").value);
 
     if (gender && gender && heightFeets && heightInches && weight) {
 
